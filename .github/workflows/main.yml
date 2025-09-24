@@ -1,13 +1,13 @@
-name: sehdule job 
+name: schedule job
 
 on:
- schedule: 
-  - cron: "0 0 * * *"
+  schedule: 
+    - cron: "0 0 * * *"
 
 jobs:
-  run-script: 
+  run-script:
     runs-on: ubuntu-latest
 
-   steps:
-    - name: message
-      run: echo "this is commit message" 
+    steps:
+      - name: message
+        run: echo "this is commit message"
