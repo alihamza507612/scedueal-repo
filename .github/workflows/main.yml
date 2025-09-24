@@ -10,4 +10,4 @@ jobs:
 
    steps:
     - name: message
-      run: echo"this is commit message" 
+      run: echo "this is commit message" 
